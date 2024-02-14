@@ -23,6 +23,7 @@
     "@swc/jest": "0.2.20",
     "@types/jest": "27.4.1",
     "@types/node": "16.11.7",
+
     "@typescript-eslint/eslint-plugin": "~5.18.0",
     "@typescript-eslint/parser": "~5.18.0",
     "commitizen": "^4.2.4",
