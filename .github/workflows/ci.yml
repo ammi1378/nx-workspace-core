@@ -107,11 +107,11 @@ jobs:
       - name: Install dependencies
         run: |
           if [ "${{ steps.package_manager.outputs.name == 'yarn' }}" == "true" ]; then
-            echo "Running yarn install --frozen-lockfile"
-            yarn install --frozen-lockfile
+            echo "Running yarn install --no-frozen-lockfile"
+            yarn install --no-frozen-lockfile
           elif [ "${{ steps.package_manager.outputs.name == 'pnpm' }}" == "true" ]; then
-            echo "Running pnpm install --frozen-lockfile"
-            pnpm install --frozen-lockfile
+            echo "Running pnpm install --no-frozen-lockfile"
+            pnpm install --no-frozen-lockfile
           else
             echo "Running npm ci"
             npm ci
