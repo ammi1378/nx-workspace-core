@@ -1,10 +1,10 @@
 {
-  "name": "@guysenpai/ts-library",
+  "name": "@ammi1378/ts-library",
   "version": "0.0.0-semantic-release",
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/guysenpai/nx-workspace-core.git",
+    "url": "https://github.com/ammi1378/nx-workspace-core.git",
     "directory": "packages/ts-library"
   },
   "publishConfig": {
